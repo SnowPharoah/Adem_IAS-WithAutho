@@ -14,7 +14,7 @@ function handleFormSubmit(event) {
 
     if (username === storedUsername && password === storedPassword) {
         // If credentials match, redirect to index.html
-        window.location.href = 'index.html';
+        window.location.href = 'main.html';
     } else {
         // If credentials don't match, display an error message (you can customize this part)
         alert('Invalid username or password. Please try again.');
