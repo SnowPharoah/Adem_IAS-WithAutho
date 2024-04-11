@@ -1,0 +1,91 @@
+/* Resetting default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensuring full width and height */
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  
+  /* Styling h1 */
+  h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #76885B;
+    color: black;
+    text-decoration: #114232;
+    border-radius: 10px;
+  }
+  
+  /* Centering the form box */
+  .form-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #AFC8AD;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Styling the title */
+  #title {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the input fields */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 10px;
+  }
+  
+  .input-field input[type="text"],
+  .input-field input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling the submit button */
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #163020;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #5F6F52;
+  }
+  
+  /* Styling hr */
+  hr {
+    border: 2px solid black;
+  }
+  

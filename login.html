@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website with Authorization</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- Include the external JavaScript file -->
+    <script src="auth.js" defer></script>
+</head>
+<body>
+    <h1>Website with Authorization</h1>
+    <div class="form-box" id="sign-in">
+        <h1 id="title">Sign In</h1>
+        <!-- Add the onsubmit attribute to call handleFormSubmit function -->
+        <form method="post" onsubmit="handleFormSubmit(event)">
+            <div class="input-group">
+                <!-- Login Credentials -->
+                <div class="input-field">
+                    <input type="text" name="username" id="username" placeholder="Username/Email" required>
+                </div>
+                <!-- Password -->
+                <div class="input-field">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+            </div>
+            <div class="button-container">
+                <br>
+                <button type="submit" class="submit-btn" name="signin">Sign In</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
